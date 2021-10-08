@@ -1,0 +1,177 @@
+body {
+  font-family: "Montserrat";
+}
+
+#header1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+#container1 {
+  padding: 3% 0%;
+}
+
+.btn {
+  padding: 5px 30px;
+  margin-right: 15px;
+}
+
+#dog1 {
+  transform: rotate(35deg);
+}
+
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar {
+  padding: 0 0 75px;
+}
+
+.navbar-brand {
+  margin: 0;
+}
+
+#title {
+  background-color: #ff4c68;
+  position: relative;
+  z-index: 0;
+}
+
+#features {
+  padding: 15% 10%;
+  position: relative;
+  bottom: 175px;
+  background-color: white;
+  z-index: 1;
+}
+
+.features3 {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.features-p {
+  font-family: "Montserrat-Light";
+  font-size: 32px;
+}
+
+.features-h {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 48px;
+}
+
+.fas {
+  color: #ef8172;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.dog {
+  border-radius: 100%;
+  margin: 5% 2.5%;
+}
+
+.testimonials-text {
+  margin: 0 20%;
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  color: white;
+}
+
+.em1 {
+  color: white;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 85px;
+  text-align: center;
+}
+
+.press-img {
+  margin: 0 2%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+  margin-bottom: 25px;
+}
+
+.pricing {
+  padding: 0 auto;
+  margin: 5% 0;
+}
+
+.pricing-table {
+  background-color: #ff4c68;
+  color: white;
+  width: 15%;
+  border-radius: 10%;
+  margin: 0 auto;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.sign-up-button {
+  position: relative;
+}
+
+.pricing-header-p {
+  margin-bottom: 100px;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+.c-header {
+  margin: 0;
+  padding: 0;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  margin-bottom: 5%;
+  padding: 8% 30%;
+}
+
+.cta-h3 {
+  margin-bottom: 15%;
+  font-family: "Montserrat";
+  font-size: 48px;
+}
+
+#footer {
+  text-align: center;
+}
+
+.f {
+  margin: 0 1%;
+}
+
+@media (max-width: 755px) {
+  #title {
+    text-align: center;
+  }
+
+  #dog1 {
+    position: static;
+    transform: rotate(0);
+  }
+}
